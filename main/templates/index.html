@@ -1,0 +1,466 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Portafolio - Maurcio Correa Celis</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="{% static 'img/letra-m.png' %}" rel="icon" />
+    <link
+      href="{% static 'img/letra-m.png' %}"
+      rel="Mauricio Correa"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet" />
+    <link
+      href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'vendor/boxicons/css/boxicons.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'vendor/glightbox/css/glightbox.min.css' %}"
+      rel="stylesheet"
+    />
+    <link
+      href="{% static 'vendor/swiper/swiper-bundle.min.css' %}"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="{% static 'img/profile.jpg' %}"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Mauricio Correa</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a
+              href="https://www.linkedin.com/in/mauricio-celis-bb57b7253/"
+              class="linkedin"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/Mauro620"
+              class="linkedin"
+              target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><i class="bx bx-home"></i> <span>Inicio</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bx bx-user"></i> <span>Acerca de mi</span></a
+              >
+            </li>
+            <li>
+              <a href="#resume" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Trayectoria</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Mauricio Correa</h1>
+        <p>
+          <span
+            class="typed"
+            data-typed-items="Desarrollador, Bases de datos, Desarrollo Web,  Django"
+          ></span>
+        </p>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>Acerca de mi</h2>
+            <p>
+              Soy un estudiante de ingeniería informática con pasión por el
+              aprendizaje autodidacta y la resolución eficiente de problemas. Mi
+              enfoque se basa en valores como el respeto, la amistad y el
+              compañerismo, respaldado por habilidades blandas en comunicación
+              clara y empatía. Mi mentalidad proactiva y capacidad para
+              adaptarme fácilmente a entornos dinámicos destacan mi compromiso
+              con la eficiencia y la innovación. Como futuro profesional, aspiro
+              a contribuir al éxito del equipo, aplicando mis conocimientos
+              técnicos en un entorno colaborativo. Estoy entusiasmado por
+              enfrentar desafíos en la industria de la tecnología, creciendo
+              como ingeniero informático integral y aportando soluciones
+              impactantes.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img
+                src="{% static 'img/profile.jpg' %}"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3 style="margin-bottom: 40px">
+                Estudiante Ingenieria en sistemas &amp; Programador de software.
+              </h3>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Nacimiento:</strong> <span>20 de Junio 2003</span>
+                    </li>
+                    <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Telefono:</strong> <span>+57 300 886 2735</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Ciudad:</strong> <span>Medellin, Colombia</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Edad:</strong> <span>{{ edad }}</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Grado:</strong> <span>Junior</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <span>Mauro.celis620@gmail.com</span>
+                    </li>
+                    <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
+                  </ul>
+                </div>
+              </div>
+              <!-- <p>
+                Officiis eligendi itaque labore et dolorum mollitia officiis
+                optio vero. Quisquam sunt adipisci omnis et ut. Nulla
+                accusantium dolor incidunt officia tempore. Et eius omnis.
+                Cupiditate ut dicta maxime officiis quidem quia. Sed et
+                consectetur qui quia repellendus itaque neque. Aliquid amet
+                quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
+                culpa magni laudantium dolores.
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              {% for habilidad in habilidades|slice:":4" %}
+              <div class="progress">
+                <span class="skill"
+                  >{{habilidad.title}}
+                  <i class="val">{{habilidad.porcentaje}}%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="{{habilidad.porcentaje}}"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              {% for habilidad in habilidades|slice:"4:" %}
+              <div class="progress">
+                <span class="skill"
+                  >{{habilidad.title}}
+                  <i class="val">{{habilidad.porcentaje}}%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="{{habilidad.porcentaje}}"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- ======= Resume Section ======= -->
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Trayectoria</h2>
+            <p>
+              Me gustaría compartir con ustedes un recorrido por mi trayectoria
+              profesional y los aprendizajes clave que han moldeado mi
+              desarrollo y expertise en el sector del software. Esta travesía no
+              solo ha fortalecido mis habilidades técnicas, sino que también ha
+              enriquecido mi comprensión del dinámico mundo de la tecnología,
+              preparándome para enfrentar y superar los retos que este
+              emocionante campo presenta.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">Resumen</h3>
+              <div class="resume-item pb-0">
+                <h4>Mauricio Correa Celis</h4>
+                <p>
+                  <em
+                    >Programador de software y analista de datos con 1 año de
+                    experiencia desempeñando y aprendiendo en este campo,
+                    actualmente en {{ semestre }} semestre de ingenieria
+                    informatica</em
+                  >
+                </p>
+                <ul>
+                  <li>Medellin, Antioquía, COL</li>
+                  <li>(+57) 300 886 2735</li>
+                  <li>mauro.celis620@gmail.com</li>
+                </ul>
+              </div>
+
+              <h3 class="resume-title">Educación</h3>
+              <div class="resume-item">
+                <h4>Tecnico en Programación de software</h4>
+                <h5>2021 - 2023</h5>
+                <p>
+                  <em>Servicio Nacional de Aprendizaje SENA, Medellin, COL </em>
+                </p>
+                <p>
+                  Adquisición de conocimientos tecnicos en el ambito del
+                  desarrollo de software donde se enfatizo en documentación de
+                  proyecto, pensamiento algoritmico, bases de datos, desarrollo
+                  web, Python con Django, SQL, HTML, CSS, bootstrap y GitHub
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Pregrado en Ingenieria en sistemas e informatica</h4>
+                <h5>2022 - Actualidad</h5>
+                <p><em>Institución universitaria de Envigado</em></p>
+                <p>
+                  Desarrollo logico, comprensión y resolución de problemas
+                  complejos adentrando mas al mundo de sistemas, hardware,
+                  software, redes de datos, bases de datos, desarrollo web,
+                  inteligencia artificial y ciencia de datos.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Analista en Implementación</h4>
+                <h5>2022 - 2023</h5>
+                <p><em>PlaceToPay By Evertec, COL, Medellin</em></p>
+                <p>
+                  Como analista de implementación, lideré el acompañamiento,
+                  análisis y certificación de múltiples empresas en la
+                  integración de servicios de pasarela de pago en sus sitios
+                  web. Mi enfoque abarcó diversas modalidades, como API, web
+                  checkout, clave en WordPress y PrestaShop, así como la
+                  configuración de botones de redirección. Trabajé en estrecha
+                  colaboración con equipos interdisciplinarios para garantizar
+                  la integración exitosa y la óptima funcionalidad de los
+                  servicios de pago. Mi rol implicó la resolución efectiva de
+                  desafíos técnicos, asegurando la calidad y seguridad de las
+                  transacciones en línea. Esta experiencia me ha dotado de
+                  habilidades sólidas en la implementación de soluciones de
+                  pago, respaldadas por un enfoque meticuloso y orientado al
+                  cliente, que aporta valor significativo a cualquier proyecto.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Resume Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+
+      <div
+        class="portfolio-container"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      ></div>
+
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>
+              En esta sección, tengo el placer de presentarles una selección de
+              proyectos que he desarrollado, los cuales sirven como muestra
+              tangible de mis habilidades y conocimientos en acción. Para una
+              inmersión más profunda en el código y la estructura de cada
+              proyecto, encontrarán enlaces que les redirigirán directamente a
+              mi repositorio en GitHub. Además, para una visión rápida y
+              dinámica de su funcionalidad, pueden explorar breves videos
+              resúmenes haciendo clic en el ícono correspondiente. Espero que
+              estos trabajos no solo demuestren mi competencia técnica, sino que
+              también les ofrezcan una ventana a mi enfoque y pasión por el
+              desarrollo de software.
+            </p>
+          </div>
+
+          <div
+            class="testimonials-slider swiper portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              {% for project in projects %}
+              <div class="swiper-slide">
+                <div class="portfolio-item" data-aos="fade-up">
+                  <div class="portfolio-wrap">
+                    <img
+                      src="{{project.image}}"
+                      class="img-fluid"
+                      alt="{{project.title}}"
+                    />
+                    <div class="portfolio-links">
+                      <a
+                        href="{{project.url2}}"
+                        data-gallery="{{project.image}}"
+                        class="portfolio-lightbox"
+                        title="{{project.description}}"
+                        target="_blank"
+                        ><i class="bx bx-plus"></i
+                      ></a>
+                      <a
+                        href="{{project.url}}"
+                        title="More Details"
+                        target="_blank"
+                        ><i class="bx bx-link"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Portfolio Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span></span></strong>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        </div>
+      </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+    <script src="{% static 'vendor/aos/aos.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'vendor/typed.js/typed.umd.js' %}"></script>
+    <script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
+    <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>
